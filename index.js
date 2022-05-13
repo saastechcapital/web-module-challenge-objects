@@ -107,9 +107,9 @@ Write a function that creates an object with name, rating, feedback, add the new
 */
 
 
- function addReview(array){
+ function addReview(array, name, rating, feedback){
   
-  reviews.push({name: 'Daniela', rating: 5, review: 'Beautiful atmosphere and wonderful vegan options!' })
+  array.push({name, rating, feedback})
    return array
  }
 
